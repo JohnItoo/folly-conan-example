@@ -5,7 +5,7 @@
 ## Docker
 The simplest way is to use Docker and Dockerfile from the repository. For example:
 ```bash
-git clone this-repo
+git clone https://github.com/JohnItoo/folly-conan-example
 cd folly-conan-example
 docker build -t myfolly-conan-example .
 docker run -it myfolly-conan-example /bin/bash
@@ -18,7 +18,7 @@ All necessary steps like installing Python, PIP, conan, CMake and so on are perf
 To perform manual build it is necessary to have conan and CMake installed. Then you can do the following steps:
 ```bash
 # Clone the demo repository.
-git clone <this-repo>
+git clone https://github.com/JohnItoo/folly-conan-example
 cd folly-conan-example
 # Build the example.
 mkdir build && cd build
