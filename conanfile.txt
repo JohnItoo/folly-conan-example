@@ -1,0 +1,7 @@
+[requires]
+folly/2019.10.21.00
+gtest/cci.20210126
+
+[generators]
+cmake
+
